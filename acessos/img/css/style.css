@@ -1,0 +1,63 @@
+/* ESTILO PARA A PASTA INDEX,HTML */
+.center{
+    text-align: center;
+    padding: 20px; 
+}
+.justify{
+    text-align: justify;
+}
+
+.conteiner{             /*--> flexBox*/
+    display: flex;
+    flex-flow: row;
+    justify-content: center; /*--> centralizei a o texto*/
+    align-items: center;   /*--> centralizei a imagem*/
+  
+}
+
+#menu li {             
+    display: inline;  /*--> tirei as bolinhas de marcaçaõ do meu menu home e do contato*/
+    padding: 15px;    /*--> alterei a distancia dos botoes*/
+}
+
+#menu li a {              
+    text-decoration: none;   /*--> Aqui tirei aquele traço que fica em baixo da palavra quando é um link clicavel*/
+    color: black;          /*--> defini uma cor black para os botoes*/
+    font-size: 25px;          /*--> Aumentei o tamanho dos botoes*/
+}
+
+#menu li a:hover {  /*--> Quando o mouse estiver em cima do link a cor dele sera gold*/
+  color: gold;
+}
+
+.p-30{            /*--> È um seletor global que eu criei para informar que o padding vai ter 30px */
+    padding: 30px; 
+}
+.br-50 {        /*--> È um seletor global que eu criei para deixar o formato da minha foto redondo */
+    border-radius: 50%;
+}
+.wh-300 {
+    width: 500px;   /* -->  altura  -  este comando é para se caso a foto ficasse oval e nao no formato redondo
+    */
+    height: 500px;   /* -->  largura  - porem como a minha ficou redonda deixei o codigo aqui salvo como comentario
+    */
+}
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+
+
+
+
+/* ESTILO PARA A PASTA CONTATO.HTML */
+
+.ml-50px{
+    margin-left: 50px;   /*comando para dar um espaçamento nas duas imagens*/
+}
+.ml-15px{
+    margin-left: 15px;   /*comando para dar um espaço nos logotipo do insta e linkedin*/
+}
